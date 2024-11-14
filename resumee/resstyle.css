@@ -1,0 +1,186 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+body{
+    display:flex;
+    justify-content: center;
+}
+#form{
+    
+    width:800px;
+    height:100vh;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    display: flex;
+   
+
+}
+
+/* Side Section Styling Start Here */
+img{
+ border-radius: 70px;
+ height:180px;
+ width:160px;
+}
+
+#sideSection{
+    height:100vh;
+    width:50%;
+    background-color: orange;
+    padding-left: 20px;
+   
+    color:white;
+    padding-top: 40px;
+    border-radius: 40px;
+}
+#sideSection h1{
+    font-size: 30px;
+    text-decoration: underline black;
+    font-weight: bold;
+}
+#sideSection h2{
+    font-size: 15px;
+
+}
+#sideSection .heading{
+    font-size: 30px;
+    color:black;
+    padding-top: 20px;
+}
+#sideSection .subHeading{
+    padding-top: 10px;
+    font-size: 23px;
+}
+#sideSection p{
+    font-size: 17px;
+    padding-top: 5px;
+}
+/* Side Section Styling Ends Here */
+
+
+/* Main Section Styling Start Here */
+#mainSection #mainHeading{
+    color: orange;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+#mainSection{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#mainSection .heading{
+    font-size: 25px;
+    text-decoration: underline orange;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+#mainSection p{ 
+    font-size: 20px;
+    padding-top: 20px;
+}
+#mainSection{
+  height:100%;   
+}
+/* Main Section Styling Ends Here */
+
+
+
+
+
+
+
+
+/* Media Query Style Start Here */
+@media(max-width:600px){
+     
+    #form{
+        width:100vh;
+        height:full;
+        display: flex;
+        flex-direction: column;
+  }
+    
+    /* Side Section Styling Start Here */
+    img{
+     border-radius: 70px;
+     height:150px;
+     width:130px;
+    }
+    
+    #sideSection{
+        height:800px;
+        width:350px;
+        background-color: orange;
+        color: white;
+        border-radius: 20px;
+        padding-left:30px;
+        padding-bottom:10px;
+    }
+    #sideSection h1{
+        font-size: 25px;
+        text-decoration: underline black;
+        font-weight: bold;
+    }
+    #sideSection h2{
+        font-size: 17px;
+    
+    }
+    #sideSection .heading{
+        font-size: 25px;
+        color:black;
+       
+    }
+    #sideSection .subHeading{
+        font-size: 18px;
+    }
+    #sideSection p{
+        font-size: 17px;
+       
+    }
+    /* Side Section Styling Ends Here */
+    
+ 
+    /* Main Section Styling Start Here */
+     #mainSection #mainHeading{
+        display: none;
+    }
+    #mainSection{
+        background-color: whitesmoke;
+        padding-top: 20px;
+       
+    }
+    #mainSection .heading{
+        font-size: 25px;
+        text-decoration: underline orange;
+        font-weight: 700;
+    }
+    
+    #mainSection p{ 
+        font-size: 17px;
+        padding-top: 20px;
+    } 
+    
+    /* Main Section Styling Ends Here */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+}
